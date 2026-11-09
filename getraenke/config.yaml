@@ -1,0 +1,19 @@
+name: Getränke-Tracker
+description: Strichliste für den Getränke-Kühlschrank (Guthaben, Einkäufe, Kniffel)
+version: "sha-92ed592"
+slug: getraenke
+url: https://github.com/lsvllr/getraenke-tracker
+arch:
+  - aarch64
+  - amd64
+image: ghcr.io/lsvllr/getraenke-tracker
+init: false
+startup: application
+boot: auto
+backup: cold
+map:
+  - addon_config:rw
+options: {}
+schema:
+  admin_password: password?
+  secret_key: password?
