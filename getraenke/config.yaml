@@ -1,6 +1,6 @@
 name: Getränke-Tracker
 description: Strichliste für den Getränke-Kühlschrank (Guthaben, Einkäufe, Kniffel)
-version: "sha-92ed592"
+version: "sha-e91ca5f"
 slug: getraenke
 url: https://github.com/lsvllr/getraenke-tracker
 arch:
